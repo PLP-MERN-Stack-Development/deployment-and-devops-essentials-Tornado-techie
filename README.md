@@ -3,7 +3,7 @@
 ## 🚀 Live Application
 
 **Try the Live Application:**
-- **Frontend (Vercel):** [https://realtime-socketio-chatapp-z6rv.vercel.app](https://realtime-socketio-chatapp-z6rv.vercel.app)
+- **Frontend (Vercel):** [https://realtime-socketio-chatapp.vercel.app](https://realtime-socketio-chatapp.vercel.app)
 - **Backend API (Render):** [https://socket-io-chat-app-mhoi.onrender.com](https://socket-io-chat-app-mhoi.onrender.com)
 - **Health Check:** [https://socket-io-chat-app-mhoi.onrender.com/health](https://socket-io-chat-app-mhoi.onrender.com/health)
 
@@ -203,7 +203,7 @@ Open http://localhost:3000 in your browser. The client connects to the server at
 
 **Vercel (Frontend):**
 1. Frontend is deployed to Vercel automatically from GitHub
-2. URL: https://realtime-socketio-chatapp-z6rv.vercel.app
+2. URL: https://realtime-socketio-chatapp.vercel.app
 3. Environment variables are configured in `vercel.json` for production builds
 
 **Deployment Files:**
@@ -227,7 +227,7 @@ NODE_ENV=development
 PORT=5000
 MONGODB_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/<database>
 JWT_SECRET=your_secure_production_jwt_secret
-CLIENT_URL=https://realtime-socketio-chatapp-z6rv.vercel.app
+CLIENT_URL=https://realtime-socketio-chatapp.vercel.app
 NODE_ENV=production
 ```
 
